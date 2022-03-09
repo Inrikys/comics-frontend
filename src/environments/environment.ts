@@ -1,6 +1,9 @@
 
 export const environment = {
   production: false,
+  comics: {
+    url: "localhost:8080"
+  },
   marvel: {
     url:"http://gateway.marvel.com",
     ts:"zupper",
